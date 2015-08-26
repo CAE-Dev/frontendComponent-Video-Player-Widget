@@ -50,7 +50,14 @@ var init = function() {
 
 // playbackVideo
 var playbackVideo = function(videoDetails){
-$("#player").html("Upated Element");
+  var videoDetails = $.parseJSON(videoDetails);
+  // updateds "player" html element
+  jwplayer("player").setup({
+    width: 700,
+    height: 500,
+    file: videoDetails[2],
+    image: videoDetails[1]
+  });
 }
 
 

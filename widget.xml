@@ -81,7 +81,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- inter widget communication library import -->
   <script type="text/javascript" src="http://CAE-Community-Application-Editor.github.io/frontendComponent-Video-Player-Widget/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
-
+  <script src="http://CAE-Community-Application-Editor.github.io/frontendComponent-Video-Player-Widget/js/jwplayer/jwplayer.js"></script>
   <!-- import the client library -->
   <script type="text/javascript" src="http://CAE-Community-Application-Editor.github.io/frontendComponent-Video-Player-Widget/js/lib/las2peerWidgetLibrary.js"></script>
   <!-- import application script -->
@@ -93,7 +93,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
   
-    <div id='player'></div>
+    <div id='player'>Select node to play..</div>
   
   </div>
 
